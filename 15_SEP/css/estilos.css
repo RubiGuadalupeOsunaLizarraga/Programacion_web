@@ -1,0 +1,29 @@
+body{
+    max-width: 1024;
+}
+header{
+    background:blue;
+    color:white;
+    text-align:center;
+}
+
+header nav ul li{
+    background: orange;
+    color:white;
+    border-radius: 5px;
+    width: 90px;
+    display:inline-block;
+    padding: 10px 0 10px 0;
+    margin:10px;
+}
+header nav ul li:hover{
+    background: black;
+}
+footer{
+    background: orangered;
+    color:white;
+}
+.inicio{
+    color:green;
+    
+}
