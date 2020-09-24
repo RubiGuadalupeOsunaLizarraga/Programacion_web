@@ -1,0 +1,59 @@
+/*Poner primero los de etiqueta
+Pnes después las clases
+pones los unicos es decir id */
+@import url('https://fonts.googleapis.com/css2?family=Peddana&display=swap');
+@font-face{
+    font-family: "fuente" ;
+    src: url(fuente/SecularOne-Regular.ttf)
+}
+body{
+    margin: 0 auto;
+    max-width: 1024px;
+    background: #32a852;
+    font-family: "fuente";
+}
+body header {
+    background: blueviolet;
+    color:#FFFF;
+    text-align: center;
+    padding: 3px;
+
+}
+body header h1{
+    margin: 0 auto;
+    font-weight: 700;
+    text-shadow:2px 2px blanchedalmond;
+    font-family: "Peddana", serif;
+    font-size: 60px;
+}
+body header main ul{
+    background: black;
+}
+body header nav ul li{
+    display:inline-block; /*rompa la caja*/
+    background: #000;
+    color: #fff;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 3px 3px #FFF;
+}
+body header nav ul li:hover{
+    color:black;
+    background: white;
+}
+footer{
+    background: blue;
+    height: 50px;
+}
+#section1{
+    background: brown;
+    border:3px solid #FFF;
+}
+#section1 article{
+    display: inline-block;
+    border:2px solid red;
+    width: 48%;
+    vertical-align: top;
+    margin-top:20px;
+}
