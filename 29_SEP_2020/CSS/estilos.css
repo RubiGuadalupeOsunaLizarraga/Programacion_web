@@ -1,0 +1,69 @@
+/*Selectores básicos*/
+/*Selector de etiquetas, aplicar para todas las etiquetas*/
+/*a{
+    color:red;
+}*/
+/*Selectores de clases*/
+.parrafo{
+    color:blue;
+
+}
+/*Selectores de id, se hace referencia con un gato*/
+/*#parrafo{
+    color:green
+}*/
+
+/*Selector universal, se hace referencia con un * y se recomienda
+solamente para resetear el estilo del navegador*/
+/**{
+    background: red;
+}*/
+/*Selectores de atributos, se hace la referencia con corchetes, se seleccionan con elementos con el atributo*/
+[href]{
+    color:red;
+}
+/*Seleccionar elementos con ese atributo y valor*/
+[href="*"]{
+    color:blue;
+}
+/*Seleccionar elementos con ese atributo y valor al menos una vez*/
+[class~="verde"]{
+    color:green;
+}
+/*Seleccionar elementos con ese atributo y 
+exactamente ese valor o empiece por el valor seguido del guion*/
+[class|="verde"]{
+    color:purple;
+}
+/*Seleccionar elementos con ese atributo y 
+eempiece por ese valor*/
+[class ^="rojo"]{
+    color:brown;
+}
+/*Seleccionar elementos con ese atributo y 
+terminan con ese valor*/
+[class $="verde"]{
+    color:orange;
+}
+/*Selectores combinados*/
+/*Selectores de hermanos adyacentes,
+selecciona un hermano que esté justo debajp, hermano inferior*/
+h1+h2{
+    color:red;
+}
+/*Selectores de hermanos generales,
+aplica a todos los hermanos que estén debajo de el que comparten 
+el mismo padre*/
+h1~h3{
+    color:blue;
+}
+/*Selectores descendentes*/
+/*Aplica el estilo a todos los elementos dentro de este,
+se aplica a todos los hijos*/
+div span{
+    color:orange;
+}
+/*Selectores de hijo directo, busca relacion directa, debe estar el inmediato*/
+p>span{
+    color:blue;
+}
