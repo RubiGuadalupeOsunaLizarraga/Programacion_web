@@ -1,0 +1,71 @@
+/*Herencia
+Se usa el valor de inherit*/
+
+p{
+    color:green;
+    font-size: 30px;
+}
+a{
+    /*Estoy diciendo que quiero heredar lo del padre*/
+    color:inherit;
+    /*En algunos casos se hereda en automático*/
+    
+}
+/*Especificidad -> Cascada*/ 
+/*Etiquetas->1
+clases->10
+Id->100
+Estilos en linea-1000
+important-> Gana a todos, si tiene varios important lo que sale es es lo otro*/ 
+/*Sucede que pone este color porque tiene 
+más importancia*/
+.parrafo{
+    color:red !important;
+}
+#parrafo{
+    color:purple;
+}
+p{
+    color:blue !important;
+
+}
+#parrafo{
+    color:orange;
+}
+/*BOX MODEL
+- Todo lo que usamos es un modelo de cajas,
+los atributos más importantes son el ancho y el alto
+-El ancho agarra el del padre. mientras que el ancho varía de acuerdo al contenido
+esto se refiere a los elementos block label
+-Los elementos in line son los que solamente agarran el contenido.
+BLOCK ELEMENTS:- div, p, h1, ul, li, section
+INLINE ELEMENTS:- span (Solo es decorar texto, no tiene valor semántico), a, strong, select
+*/
+/*Box model*/
+h1{
+    background: lightblue;
+    width:100px;
+    
+}
+div{
+    background: lightcoral;
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+}
+a{
+    background: lightgreen;
+    height: 2000px;
+}
+span{
+    background: red;
+    height: 2000px; /*No agarra height en elementos in line*/
+}
+.caja1{
+    background: lightgreen;
+    border: 3px solid black;
+    margin:20px; /* Se aplica a todos los lados solo, con dos valores, el primer es eje y, el otro eje x.  Tres: Arriba, abajo, ambos lados*/
+    padding:10px; /*Se suman los borders y padding, los componentes crecen con bordes*/
+    box-sizing: border-box;/*La caja se acomoda*/
+}
+/*Hay muchas combinaciones para los bordes */
