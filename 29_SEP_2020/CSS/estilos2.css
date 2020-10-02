@@ -64,8 +64,9 @@ span{
 .caja1{
     background: lightgreen;
     border: 3px solid black;
-    margin:20px; /* Se aplica a todos los lados solo, con dos valores, el primer es eje y, el otro eje x.  Tres: Arriba, abajo, ambos lados*/
-    padding:10px; /*Se suman los borders y padding, los componentes crecen con bordes*/
+    margin:10px 20px; /* Se aplica a todos los lados solo, con dos valores, el primer es eje y, el otro eje x.  Tres: Arriba, abajo, ambos lados*/
+    padding:10px 20px 0; /*Se suman los borders y padding, los componentes crecen con bordes*/
     box-sizing: border-box;/*La caja se acomoda*/
+    border:2px solid black;
 }
 /*Hay muchas combinaciones para los bordes */

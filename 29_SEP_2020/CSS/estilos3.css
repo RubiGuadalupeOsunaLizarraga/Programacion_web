@@ -82,3 +82,50 @@ right: 0;
 margin:auto;
 z-index:0;
 }
+/*Fixed*/
+body{
+    margin:o auto;
+    padding-top:40px;
+}
+.menu{
+    background: blue;
+    color:floralwhite;
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+    /*position:fixed;  Para que el menú se quede fijo
+    width: 100%;
+    top:0;*/
+    position:sticky;
+    top:0px; /*A partir de esta posicion se quede fijo*/
+}
+.titulo{
+    margin:0;
+}
+/*Stiky*/
+.banner{
+    height:100px;
+    background:darkgray;
+    font-size:30px;
+    text-align: center;
+    line-height:100px;
+}
+/*Propiedad Display
+inline
+block
+inline-block
+none
+*/
+.linea{
+    /*display:block; Actua como bloque*/
+    background: lightcoral;
+    padding-bottom: 40px;
+   /* display:inline-block; Se comporta como inline pero con algunas caracteristicas del block*/
+   display:none;/*Gasta recursos solo que no se ve*/
+   
+
+}
+.bloque{
+    /*display:inline; Actua como linea*/
+    background: yellow;
+}

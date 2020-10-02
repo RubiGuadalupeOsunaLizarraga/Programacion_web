@@ -1,0 +1,24 @@
+/*Pseudoelementos: Usados para dar estilo especifico a elementos
+: : first letter- elementos bloque
+::first-line- elementos en bloque
+::selection
+::before
+::after
+*/
+.titulo::first-letter{
+    color:red;
+    font-size: 50px;
+} 
+.parrafolinea::first-letter{
+    color:red;
+}
+.parrafolinea{
+    display:block;
+}
+.texto::first-line{
+    color:green;
+}
+.texto::selection{
+    color:red;
+    background: beige;
+}
