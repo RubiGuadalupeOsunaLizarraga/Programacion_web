@@ -22,3 +22,110 @@
     color:red;
     background: beige;
 }
+/*before y after 
+la propiedad de content es obligatorio
+por defecto son elementos en lines, y se pueden
+visualizar como hijos del elemento*/
+
+.dinero::before{
+content:'$';
+color:red;
+}
+.dinero::after{
+    content:'.oo';
+    color:rgb(233, 194, 194);
+}
+/*Pseudoclases
+Dinamicas
+:Link-Link no visitado
+:visited-Link visitadi
+:active -al momento de click link
+:hover
+:focus
+*/
+.enlace:link{
+    color:green;
+}
+.enlace:visited{
+    color:green;
+}
+.enlace:active{
+    transform: scale(0.8);
+    background: red;
+}
+.enlace{
+    padding:10px;
+    display:inline-block;
+    background: blue;
+    color:white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.enlace:hover{
+    background: black;
+}
+input:focus{
+    background: yellow;
+    font-size: 15px;
+}
+/*Estado
+:enabled
+:disabled
+:required
+:opcional
+:valid
+:invalid
+:in range
+:out- of range
+*/
+.input, .label{
+    display:block;
+
+}
+.input:enabled{
+    background: green;
+}
+.input:disabled{
+    border:1px solid black;
+}
+.input:required{
+    background:red;
+}
+.checkbox,.checkbox+label{
+    display:inline-block;
+
+}
+.checkbox,.checkbox + label{
+    font-size: 30 px;
+}
+.input:in-range{
+    background: green;
+}
+.input:out-of-range{
+    background: red;
+}
+/*Estructurales
+CHILD
+:first-child-Seleccionarian al primer hijo- no importa el tipo de elemento
+:last-child:nth-chil(n)-seleccionar al hijo n
+:nth- last-child(n)
+:only child
+
+valores:
+odd-impares
+eyen-pared
+numeros enteros
+
+type:
+:first-of type
+:last-of type
+:nth-of type
+*/
+.parrafo:nth-child(odd){
+    background:chocolate;
+}
+.parrafo:nth-child(even){
+    background:coral;
+}
+
+
