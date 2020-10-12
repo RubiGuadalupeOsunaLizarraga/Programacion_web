@@ -1,0 +1,119 @@
+body{
+    margin: 0 auto;
+    max-width: 1024;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+  
+}
+header{
+    position: relative;
+    margin: 0 auto;
+}
+header nav ul{
+    border-bottom: 2px solid black;
+    margin-left: 180px;
+    width: 680px;
+}
+
+header nav ul li{
+display:inline-block;
+padding: 12px 30px 12px 30px;
+margin-right:0px;
+margin-top:20px;
+border-left: 2px solid black ;
+padding-bottom: 2px;
+padding-right: 20px;
+margin-bottom: 0px;
+}
+.opcion1{
+    margin-left:10px;
+    width: 200px;
+    text-align: right;
+    border-left: none;
+}
+.menu{
+    font-weight: 400;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 90%;
+}
+.logo{
+    margin:0 auto;
+    padding: 0 auto;
+    position: absolute;
+    width: 83px;
+    height: 82px;
+}
+section article{
+    display:inline-block;
+    vertical-align: top;
+}
+.contenido{
+    margin-top: 60px;
+    text-align: right;
+}
+.imagen{
+    width: 500px;
+    height: 350px;
+}
+.imagen img{
+    width: 100%;
+    height: 100%;
+}
+.texto{
+    text-align: center;
+    margin-left:10px;
+    margin-right:20px;
+    padding-top: 0;
+    font-family: sans-serif;
+}
+.titulo{
+    font-weight:1000;
+    font-size: 500%;
+    padding:0 auto;
+    padding-right: 40px;
+    margin:0 auto;
+    line-height:65px;
+}
+.subtitulo{
+    
+    font-weight:800;
+    font-size: 300%;
+    padding:0 auto;
+    padding-right: 45px;
+    margin:0 auto;
+    line-height:45px;
+}
+.contenidoP{
+    
+    font-weight:800;
+    font-size: 80%;
+    padding:0 auto;
+    padding-right: 45px;
+    padding-top: 20px;
+    margin:0 auto;
+    line-height:20px;
+}
+.piepagina{
+    margin-top: 70px;
+    background: black;
+    color:gray;
+    height: 100px;
+}
+.abajo{
+    display: inline-block;
+    width: 49%;
+    font-weight:120;
+    font-size: 12px;
+    font-family: Cambria;
+    text-align: center;
+    padding-top: 25px ;
+}
+.base{
+    font-family: fantasy;
+    font-size: 20px;
+    text-align:center;
+    color:white;
+}
+.correo{
+    color:rgb(87, 83, 83);
+}
