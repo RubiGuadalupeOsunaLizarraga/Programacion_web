@@ -1,0 +1,227 @@
+body{
+    margin:0;
+    max-width: 1024px;
+    font-family: Arial, Helvetica, sans-serif;
+    background:rgb(234,234,234);
+}
+.contenedor-logo{
+    width: 100%;
+    text-align: center;
+    height:60px;
+    background: rgb(30,87,124);
+}
+#logo{
+    width: 17%;
+    height: 100%;
+}
+.menu{
+    text-align: right;
+    margin-right: 60px;
+}
+.menu ul li{
+    display: inline-block;
+    border-bottom: 1px solid black;
+    line-height:10px;
+    margin:3px 12px 0px 12px ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+}
+.panel-izquierdo{
+    display:inline-block;
+    width: 23%;
+    vertical-align: top;
+    margin:10px 1px 0px 20px;
+}
+.contenido{
+    display: inline-block;
+    vertical-align: top;
+    width: 70%;
+    margin:10px 1px 0px 20px;
+    background: white;
+    border-radius: 20px;
+    vertical-align: top;
+}
+.links{
+    width: 100%;
+    height:305px;
+    background: rgb(68,113,139);
+    margin:0 auto;
+}
+.titulo-tabla{
+    padding: 10px 0px 10px 10px;
+    color:white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:600;
+    font-size: 12px;
+    background: rgb(30,87,124);
+    height: 20px;
+}
+.menu-links{
+    margin-top:0px ;
+    padding-left: 40px;
+    padding-top: 0px;
+    
+}
+.menu-links li{
+    padding-top: 10px;
+    padding-bottom: 6px;
+    color:white;
+    font-family:  Tahoma, sans-serif;
+    font-weight:300;
+    font-size: 13px;
+    margin:0 auto;
+    list-style-type: "</> ";
+    
+}
+#primero{
+    padding-top: 1px;
+}
+
+.img-vin{
+    width: 25px;
+    height: 25px;
+    margin:0 auto;
+}
+.progress{
+    background: white;
+    height:190px;
+    width: 100%;
+}
+.progreso{
+    color:rgb(158,158,158);
+    margin:3px 0px 7px 5px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight:600;
+    font-size:14px;
+    
+}
+.barra{
+    margin:1px 0px 3px 5px;
+    width: 90%;
+    height: 15px;
+    background: rgb(245,246,245);
+}
+#barra-lila{
+    
+    background-image: linear-gradient( to left,transparent 50%, purple 50%);
+}
+#barra-verde{
+    background-image: linear-gradient( to left,transparent 70%, green 70%);
+}
+#barra-naranja{
+    padding:3px 0px 1px 4px;
+    background-image: linear-gradient( to left,transparent 30%,orange 30%);
+}
+.cubes div{
+    display:inline-block;
+    width: 20.9%;
+    margin: 20px 0px 5px 20px;
+    border-radius:10px;
+    text-align: center;
+    height: 110px;
+}
+#cube-verde{
+    background:rgb(21,176,80);
+}
+#cube-amarillo{
+    background: rgb(255,192,18);
+}
+#cube-lila{
+    background:rgb(112,47,170);
+}
+#cube-rojo{
+    background:rgb(159,40,53);
+}
+.img-cubes{
+    width: 50px;
+    height: 50px;
+    margin-top: 3px;
+    margin-bottom: 0px;
+}
+.texto-img{
+    margin:0 auto;
+    padding: 0 auto;
+    color:white;
+    font-family: Verdana;
+    font-size: 12px;
+    font-weight: 400;
+}
+.titulo{
+    margin:15px 0px 0px 20px;
+    color:grey;
+font-weight: 600;
+font-size: 14px;
+font-family: sans-serif;
+}
+.panels div{
+    display:inline-block;
+    width:30%;
+    margin: 20px 6px 2px 2px;
+   
+}
+.grafico-img{
+    width: 100%;
+    height: 60px;
+}
+.porcentaje{
+    background: blue;
+    color:white;
+    text-align: center;
+    margin: 0 auto;
+    height: 30px;
+}
+.grafico{
+    text-align: center;
+    height: 150px;
+}
+#panel-azul h2{
+    background: rgb(188,233,241);
+}
+#panel-azul{
+    border: 2px solid rgb(188,233,241);
+    margin-left: 20px;
+}
+.texto-grafico{
+    font-size: 12px;
+    font-family: serif;
+    font-weight: 600;
+    color:grey;
+}
+#panel-naranja h2{
+    background: rgb(251,236,205);
+}
+#panel-naranja{
+    border: 2px solid rgb(251,236,205);
+}
+#panel-rojo h2{
+    background: rgb(235,204,209);
+}
+#panel-rojo{
+    border: 2px solid rgb(235,204,209);
+}
+.users div{
+    display: inline-block;
+    width: 156px;
+    height: 156px;
+    background: rgb(67,123,147);
+    vertical-align: top;
+    text-align: center;
+    margin-left: 15px;
+    margin-top:15px;
+}
+.img-usuario{
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+    margin: 20px 0px 10px 0px;
+}
+.boton{
+   background: rgb(188,233,241);
+   border-radius: 5px;
+   color:white;
+   font-size: 14px;
+   font-weight: 600; 
+   border: none;
+   width: 70px;
+   height: 22px;
+}
